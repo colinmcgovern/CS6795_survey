@@ -1,34 +1,41 @@
 "use client"; // This is a client component
 
+import Welcome from "./components/Welcome";
 import CardGame from "./components/cardGame";
+import MemorizeGame from "./components/memorizeGame";
+import DemographicsQuiz from "./components/DemographicsQuiz";
+import NastQuiz from "./components/NastQuiz";
+import ThankYou from "./components/ThankYou";
 
 import React, { useState, useEffect } from 'react';
-
-const [phase, setPhase] = useState(0);
-
-const longTermGameSeed = 0
-const shortTermGameSeed = 1
 
 // TODO every middle phase should have 60s limit
 // Randomly have last three middle phases be in random order 
 
 export default function Home() {
+
+  const [memorySeed, setMemorySeed] = useState(0);
+  const [phase, setPhase] = useState(2);
+  const [nickname, setNickname] = useState('');
+
+  useEffect(() => {
+    setMemorySeed(Math.floor(Math.random() * 1000))
+  }, [])
+
   return (
     <div style={{ maxWidth: "1500px", margin: "0 auto" }}>
       {phase === 0 ? (
-        <Welcome />
+        <Welcome setPhase={setPhase} nickname={nickname} setNickname={setNickname} />
       ) : phase === 1 ? (
-        <CardGame showCardsOnly={true} seed={longTermGameSeed} />
+        <CardGame setPhase={setPhase} nickname={nickname}/>
       ) : phase === 2 ? (
-        <DemographicsSurvey />
+        <MemorizeGame setPhase={setPhase} nickname={nickname}/>
       ) : phase === 3 ? (
-        <CardGame seed={shortTermGameSeed} />
+        <DemographicsQuiz setPhase={setPhase} nickname={nickname}/>
       ) : phase === 4 ? (
-        <NostolgiaSurvey />
-      ) : phase === 5 ? (
-        <CardGame doNotShowCards={true} seed={longTermGameSeed} />
+        <NastQuiz setPhase={setPhase} nickname={nickname}/>
       ) : (
-        <ThankYou />
+        <ThankYou nickname={nickname}/>
       )}
     </div>
   );

@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { sendDataToLog } from '../sendDataToLog.js';
 
 const decades = ["70", "80", "90", "00", "10"];
 const devices = ["vg", "phone", "car", "computer"];
 
-const CardGame = ({ rows = 4, cols = 5 }) => {
+const CardGame = ({ setPhase, nickname, rows = 5, cols = 6 }) => {
     let initialCards = decades.flatMap((decade) => {
         return devices.map((device) => {
             return { id: `${decade}${device}`, value: `${decade}_${device}`, image: `/cards/${decade}_${device}.png`, isFlipped: true, isMatched: false };
@@ -78,6 +79,13 @@ const CardGame = ({ rows = 4, cols = 5 }) => {
 
         if (newFlippedCards.length === 2) {
             const [firstIndex, secondIndex] = newFlippedCards;
+
+            sendDataToLog(
+                nickname,
+                "pair of cards",
+                cards[firstIndex].id + " " + cards[secondIndex].id
+            );
+
             if (newCards[firstIndex].value === newCards[secondIndex].value) {
                 newCards[firstIndex].isMatched = true;
                 newCards[secondIndex].isMatched = true;
@@ -95,7 +103,8 @@ const CardGame = ({ rows = 4, cols = 5 }) => {
 
     return (
         <div className="card-game">
-            <h1>Matching Card Game</h1>
+            <h1>Matching Card Game (Part 2 of 6)</h1>
+            <h2>Try your best to memorize the cards. Wrong guesses are slightly penalized.</h2>
             <div>Time Left: {timeLeft}s</div>
             <div
                 className="cards-container"
@@ -141,8 +150,17 @@ const CardGame = ({ rows = 4, cols = 5 }) => {
             </div>
             {isGameOver && (
                 <div className="game-over">
-                    <h2>{matchedCount === cards.length ? "Congratulations! You matched all the cards!" : "Time's up! Game over!"}</h2>
-                    <button onClick={() => window.location.reload()}>Restart</button>
+                    <h2>{matchedCount === cards.length ? "Congratulations! You matched all the cards! Click Next." : "Time's up! Game over! Click Next."}</h2>
+                    <button style={{
+                            padding: '10px 20px',
+                            fontSize: '16px',
+                            backgroundColor: '#007BFF',
+                            color: '#fff',
+                            border: 'none',
+                            borderRadius: '5px',
+                            cursor: 'pointer',
+                            marginTop: '20px',
+                        }} onClick={() => {setPhase(prevPhase => prevPhase + 1)}}>Next</button>
                 </div>
             )}
         </div>

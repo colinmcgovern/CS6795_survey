@@ -1,0 +1,34 @@
+{"name":"colin_1743257031","key":"nickname","value":"colin_1743257031","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"10phone_duplicate 10phone","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"00computer 00computer_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"10vg_duplicate 70computer_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"80phone_duplicate 10computer_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70computer 80vg","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"80computer_duplicate 00phone","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"10computer 90car","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"10vg 00phone_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"10vg_duplicate 70phone_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"10vg 10vg_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70vg_duplicate 80phone_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70phone_duplicate 90car_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70computer_duplicate 80computer_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"80vg 90phone","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70computer 80vg","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"90computer 90phone_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70phone 80car","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"90car_duplicate 70computer_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"90computer 90phone_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70vg 70phone","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"90car 70phone_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70phone 90phone_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"90phone 90phone_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"80vg 80computer_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70computer 80vg_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"80vg 80vg_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"90car_duplicate 80car_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70phone 10computer","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"80phone 10computer_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"80phone_duplicate 80phone","password":"password1111"}
+{"name":"colin_1743257031","key":"pair of cards","value":"70phone_duplicate 70vg_duplicate","password":"password1111"}
+{"name":"colin_1743257031","key":"formData","value":{"age":"33","gender":"male","ethnicity":"black","politicalParty":"democrat","educationLevel":"no-high-school","maritalStatus":"yes","children":"33","country":"33","state":"33","gamingFrequency":"every-day","futureOutlook":"very-bad"},"password":"password1111"}
+{"name":"colin_1743257031","key":"formData","value":{"item-0":"2","item-1":"3","item-2":"3","item-3":"4","item-4":"5"},"password":"password1111"}
