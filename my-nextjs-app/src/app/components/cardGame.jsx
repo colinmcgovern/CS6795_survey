@@ -24,7 +24,7 @@ const CardGame = ({ setPhase, nickname, rows = 5, cols = 6 }) => {
     const [matchedCount, setMatchedCount] = useState(0);
     const [hasShuffled, setHasShuffled] = useState(false);
     const [isStartPressed, setIsStartPressed] = useState(false);
-    const [timeLeft, setTimeLeft] = useState(60); // Timer state
+    const [timeLeft, setTimeLeft] = useState(30); // Timer state
     const [isGameOver, setIsGameOver] = useState(false);
 
     useEffect(() => {
@@ -104,53 +104,108 @@ const CardGame = ({ setPhase, nickname, rows = 5, cols = 6 }) => {
     return (
         <div className="card-game">
             <h1>Matching Card Game (Part 2 of 6)</h1>
-            <h2>Try your best to memorize the cards. Wrong guesses are slightly penalized.</h2>
+            <h2>Try your best to memorize the cards.</h2>
             <div>Time Left: {timeLeft}s</div>
-            <div
-                className="cards-container"
-                style={{
-                    display: 'grid',
-                    gridTemplateRows: `repeat(${rows}, 1fr)`,
-                    gridTemplateColumns: `repeat(${cols}, 1fr)`,
-                    gap: '10px',
-                }}
-            >
-                {hasShuffled && cards.map((card, index) => (
-                    <div
-                        key={card.id}
-                        className={`card ${card.isFlipped ? 'flipped' : ''} ${card.isMatched ? 'matched' : ''}`}
-                        onClick={() => {
-                            handleCardClick(index);
-                            setIsStartPressed(true);
-                        }}
+            {!isStartPressed ? (
+                <>
+                                    <div
+                    className="cards-container"
+                    style={{
+                        display: 'grid',
+                        gridTemplateRows: `repeat(${rows}, 1fr)`,
+                        gridTemplateColumns: `repeat(${cols}, 1fr)`,
+                        gap: '10px',
+                    }}
+                >
+                    {hasShuffled && cards.map((card, index) => (
+                        <div
+                            key={card.id}
+                            className={`card ${card.isFlipped ? 'flipped' : ''} ${card.isMatched ? 'matched' : ''}`}
+                            style={{
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignItems: 'center',
+                                border: '1px solid #ccc',
+                                height: '128px',
+                                width: '128px',
+                                cursor: 'pointer',
+                                position: 'relative',
+                                overflow: 'hidden',
+                            }}
+                        >
+                            {(card.isFlipped || card.isMatched) ? (
+                                <Image
+                                    src={card.image}
+                                    alt={`Card ${card.value}`}
+                                    layout="fill"
+                                    objectFit="contain"
+                                />
+                            ) : (
+                                <span style={{ fontSize: '24px' }}>?</span>
+                            )}
+                        </div>
+                    ))}
+                </div>
+                    <button
                         style={{
-                            display: 'flex',
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            border: '1px solid #ccc',
-                            height: '128px',
-                            width: '128px',
+                            padding: '10px 20px',
+                            fontSize: '16px',
+                            backgroundColor: '#007BFF',
+                            color: '#fff',
+                            border: 'none',
+                            borderRadius: '5px',
                             cursor: 'pointer',
-                            position: 'relative',
-                            overflow: 'hidden',
+                            marginTop: '20px',
                         }}
+                        onClick={() => setIsStartPressed(true)}
                     >
-                        {(card.isFlipped || card.isMatched) ? (
-                            <Image
-                                src={card.image}
-                                alt={`Card ${card.value}`}
-                                layout="fill"
-                                objectFit="contain"
-                            />
-                        ) : (
-                            <span style={{ fontSize: '24px' }}>?</span>
-                        )}
-                    </div>
-                ))}
-            </div>
+                        Start Game
+                    </button>
+                </>
+            ) : (
+                <div
+                    className="cards-container"
+                    style={{
+                        display: 'grid',
+                        gridTemplateRows: `repeat(${rows}, 1fr)`,
+                        gridTemplateColumns: `repeat(${cols}, 1fr)`,
+                        gap: '10px',
+                    }}
+                >
+                    {hasShuffled && cards.map((card, index) => (
+                        <div
+                            key={card.id}
+                            className={`card ${card.isFlipped ? 'flipped' : ''} ${card.isMatched ? 'matched' : ''}`}
+                            onClick={() => handleCardClick(index)}
+                            style={{
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignItems: 'center',
+                                border: '1px solid #ccc',
+                                height: '128px',
+                                width: '128px',
+                                cursor: 'pointer',
+                                position: 'relative',
+                                overflow: 'hidden',
+                            }}
+                        >
+                            {(card.isFlipped || card.isMatched) ? (
+                                <Image
+                                    src={card.image}
+                                    alt={`Card ${card.value}`}
+                                    layout="fill"
+                                    objectFit="contain"
+                                />
+                            ) : (
+                                <span style={{ fontSize: '24px' }}>?</span>
+                            )}
+                        </div>
+                    ))}
+                </div>
+            )}
             {isGameOver && (
                 <div className="game-over">
-                    <h2>{matchedCount === cards.length ? "Congratulations! You matched all the cards! Click Next." : "Time's up! Game over! Click Next."}</h2>
+                    <h2>{matchedCount === cards.length ? "Congratulations! You matched all the cards! Click Next." : "Time's up! Good Job! Click Next."}</h2>
                     <button style={{
                             padding: '10px 20px',
                             fontSize: '16px',

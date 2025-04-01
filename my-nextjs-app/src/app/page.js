@@ -14,13 +14,8 @@ import React, { useState, useEffect } from 'react';
 
 export default function Home() {
 
-  const [memorySeed, setMemorySeed] = useState(0);
   const [phase, setPhase] = useState(2);
   const [nickname, setNickname] = useState('');
-
-  useEffect(() => {
-    setMemorySeed(Math.floor(Math.random() * 1000))
-  }, [])
 
   return (
     <div style={{ maxWidth: "1500px", margin: "0 auto" }}>

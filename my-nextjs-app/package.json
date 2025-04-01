@@ -23,6 +23,7 @@
     "child_process": false
   },
   "scripts": { 
+	"build": "next build",
     "dev": "next dev -p 1234",
     "start": "next start -p 1234"
   }

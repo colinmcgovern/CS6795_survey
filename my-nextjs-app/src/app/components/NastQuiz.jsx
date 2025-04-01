@@ -21,13 +21,13 @@ const NostalgiaQuiz = ({ setPhase, nickname }) => {
         <div>
             <h2>How Nostalgic Are You? (Part 5 of 6)</h2>
             <h3>
-                1 is very rarely and 7 is very frequently
+                1 is very rarely and 7 is very frequently. The next button will appear after you answer all questions.
             </h3>
             <br/>
             <form>
                 {items.map((item, index) => (
                     <div key={index}>
-                        <label>{index + 1}. How much do you miss {item}?</label>
+                        <label>{index + 1}. {item}</label>
                         <div style={{ display: 'flex', gap: '64px', marginTop: '5px' }}>
                             {Array.from({ length: 7 }, (_, i) => i + 1).map((value) => (
                                 <label key={value}>

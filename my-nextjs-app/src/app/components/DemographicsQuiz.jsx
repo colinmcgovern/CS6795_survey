@@ -26,6 +26,7 @@ const DemographicsQuiz = ({setPhase, nickname}) => {
     return (
         <div>
             <h1>Who are you? (Part 4 of 6)</h1>
+            <h2>After all the questions are answered the next button will appear</h2>
             <form>
                 <div style={{ marginBottom: '20px', fontSize: '18px' }}>
                     <label htmlFor="age">Age:</label>
