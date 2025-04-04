@@ -121,3 +121,12 @@
 {"name":"","key":"flash_memory","value":{"image":"/cards/90_vg.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
 {"name":"","key":"flash_memory","value":{"image":"/cards/00_car.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
 {"name":"","key":"flash_memory","value":{"image":"/cards/00_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/80_vg.png","shown":false,"answer":false,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/80_car.png","shown":false,"answer":true,"correct":false},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/10_vg.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/10_computer.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/10_vg.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/90_computer.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/70_vg.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/00_computer.png","shown":false,"answer":true,"correct":false},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/10_vg.png","shown":true,"answer":false,"correct":false},"password":"password1111"}

@@ -26,7 +26,7 @@ export default function MemoryChallengeGame({ setPhase, nickname }){
                 id: `${decade}${device}`,
                 image: `/cards/${decade}_${device}.png`,
             }));
-        })).slice(10);
+        })).slice(0, 15);
         setShownImages(selectedImages);
         console.log("Called")
     }, []);
@@ -34,6 +34,7 @@ export default function MemoryChallengeGame({ setPhase, nickname }){
     useEffect(() => {
         if (hasStarted && isShowingImages && shownImages.length > 0) {
             const interval = setInterval(() => {
+                console.log(currentImageIndex, shownImages.length)
                 if (currentImageIndex < shownImages.length) {
                     setCurrentImageIndex((prevIndex) => prevIndex + 1);
                 } else {
@@ -107,7 +108,7 @@ export default function MemoryChallengeGame({ setPhase, nickname }){
             {!hasStarted ? (
                 <div className="start-screen">
                     <h1>Memory Challenge Game (Part 3 of 6)</h1>
-                    <h2>Are you ready to test your memory? You will be shown 10 images. Please remember them to the best of your ability.</h2>
+                    <h2>Are you ready to test your memory? You will be shown 15 images. Please remember them to the best of your ability.</h2>
                     <button
                         style={{
                             padding: '15px 30px',
