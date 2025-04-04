@@ -26,9 +26,10 @@ export default function MemoryChallengeGame({ setPhase, nickname }){
                 id: `${decade}${device}`,
                 image: `/cards/${decade}_${device}.png`,
             }));
-        })).slice(30); // Randomly select 10 images
+        })).slice(10);
         setShownImages(selectedImages);
-    }, [isShowingImages]);
+        console.log("Called")
+    }, []);
 
     useEffect(() => {
         if (hasStarted && isShowingImages && shownImages.length > 0) {
@@ -96,9 +97,9 @@ export default function MemoryChallengeGame({ setPhase, nickname }){
 
         answerCount += 1
 
-        if(answerCount % 3 === 0){
-            setIsShowingImages(true);
-        }
+        // if(answerCount % 3 === 0){
+        //     setIsShowingImages(true);
+        // }
     };
 
     return (

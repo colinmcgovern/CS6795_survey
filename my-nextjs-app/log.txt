@@ -110,3 +110,14 @@
 {"name":"colin mcgovern_1743547488","key":"pair of cards","value":"00vg 00vg_duplicate","password":"password1111"}
 {"name":"colin mcgovern_1743547488","key":"pair of cards","value":"00car_duplicate 70phone","password":"password1111"}
 {"name":"colin mcgovern_1743547488","key":"pair of cards","value":"80car 00car","password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/70_computer.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/70_car.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/10_car.png","shown":false,"answer":false,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/00_car.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/70_vg.png","shown":false,"answer":true,"correct":false},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/80_car.png","shown":false,"answer":true,"correct":false},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/10_computer.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/70_car.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/90_vg.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/00_car.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
+{"name":"","key":"flash_memory","value":{"image":"/cards/00_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
