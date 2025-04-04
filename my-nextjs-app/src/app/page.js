@@ -14,7 +14,7 @@ import React, { useState, useEffect } from 'react';
 
 export default function Home() {
 
-  const [phase, setPhase] = useState(2);
+  const [phase, setPhase] = useState(0);
   const [nickname, setNickname] = useState('');
 
   return (

@@ -130,3 +130,52 @@
 {"name":"","key":"flash_memory","value":{"image":"/cards/70_vg.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
 {"name":"","key":"flash_memory","value":{"image":"/cards/00_computer.png","shown":false,"answer":true,"correct":false},"password":"password1111"}
 {"name":"","key":"flash_memory","value":{"image":"/cards/10_vg.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"nickname","value":"test_1743726449","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"90car_duplicate 10vg_duplicate","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"00computer_duplicate 70car","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"10vg 10vg_duplicate","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"90vg 00computer","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"90vg_duplicate 90vg","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"00computer 80computer","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"90phone 80vg","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"70phone_duplicate 80car_duplicate","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"90car_duplicate 10phone_duplicate","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"70car 10computer","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"00computer 70car_duplicate","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"70vg 00vg_duplicate","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"10phone 70car","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"90car_duplicate 70car","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"10phone_duplicate 90phone","password":"password1111"}
+{"name":"test_1743726449","key":"pair of cards","value":"80vg 70phone_duplicate","password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_vg.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/10_computer.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/70_car.png","shown":false,"answer":true,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_car.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/90_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/10_car.png","shown":false,"answer":true,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_phone.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/70_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/80_computer.png","shown":false,"answer":true,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_car.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/80_phone.png","shown":false,"answer":true,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/10_car.png","shown":false,"answer":false,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/70_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/10_vg.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/90_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/70_vg.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/10_computer.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/80_car.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/10_vg.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_computer.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_computer.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/10_computer.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/80_phone.png","shown":false,"answer":true,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/10_car.png","shown":false,"answer":false,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_computer.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/10_computer.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/00_vg.png","shown":true,"answer":false,"correct":false},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/70_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
+{"name":"test_1743726449","key":"flash_memory","value":{"image":"/cards/90_phone.png","shown":true,"answer":true,"correct":true},"password":"password1111"}
