@@ -20,7 +20,7 @@ export default function ThankYou(nickname) {
             { isSubmitted === false &&
             <>
             
-            <inputNext
+            <input
                 type="text"
                 value={email}
                 onChange={handleInputChange}
