@@ -7,6 +7,8 @@ export function sendDataToLog(name, key, value) {
 
     fetch('https://awae8rrii1.execute-api.us-west-2.amazonaws.com/log', {
         method: 'POST',
+        mode: 'no-cors', // No CORS, but you can't access the response
+
         headers: {
             'Content-Type': 'application/json',
         },
