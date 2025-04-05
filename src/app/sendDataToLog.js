@@ -11,3 +11,4 @@ export function sendDataToLog(name, key, value) {
         body: JSON.stringify({ name, key, value, password }),
     })
 }
+
