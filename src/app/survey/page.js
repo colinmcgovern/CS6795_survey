@@ -1,11 +1,11 @@
 "use client"; // This is a client component
 
-import Welcome from "./components/Welcome";
-import CardGame from "./components/cardGame";
-import MemorizeGame from "./components/memorizeGame";
-import DemographicsQuiz from "./components/DemographicsQuiz";
-import NastQuiz from "./components/NastQuiz";
-import ThankYou from "./components/ThankYou";
+import Welcome from "../components/Welcome";
+import CardGame from "../components/cardGame";
+import MemorizeGame from "../components/memorizeGame";
+import DemographicsQuiz from "../components/DemographicsQuiz";
+import NastQuiz from "../components/NastQuiz";
+import ThankYou from "../components/ThankYou";
 
 import React, { useState, useEffect } from 'react';
 

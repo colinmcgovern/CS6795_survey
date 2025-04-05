@@ -3,7 +3,7 @@ export function sendDataToLog(name, key, value) {
 
     const password = "password1111";
 
-    fetch('http://colinmcgovern:5678/log', {
+    fetch('http://colinmcgovern.com:5678/log', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
