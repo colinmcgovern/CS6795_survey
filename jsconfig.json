@@ -1,4 +1,9 @@
 {
+  "browser": {
+  "fs": false,
+  "path": false,
+  "os": false
+},
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"]

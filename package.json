@@ -3,28 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev -p 1234",
+    "start": "next start -p 1234"
   },
   "dependencies": {
     "child_process": "^1.0.2",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
+    "https": "^1.0.0",
     "next": "^15.2.2",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "sendmail": "^1.6.1",
     "terser-webpack-plugin": "^5.3.14",
     "webpack": "^5.98.0",
     "webpack-cli": "^4.10.0"
   },
   "browser": {
     "child_process": false
-  },
-  "scripts": { 
-	"build": "next build",
-    "dev": "next dev -p 1234",
-    "start": "next start -p 1234"
   }
 }
